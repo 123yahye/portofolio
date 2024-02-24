@@ -4,6 +4,18 @@
 	margin: 0px;
 	box-sizing: border-box;
 }
+@media screen and (max-width: 767px) {
+	.nav {
+	  position: fixed;
+	  top: var(--header-height);
+	  right: -100%;
+	  width: 80%;
+	  height: 100%;
+	  padding: 2rem;
+	  background-color: var(--second-color);
+	  transition: 0.5s;
+	}
+  }
 body {
 	font-family: "Poppins", sans-serif;
 }
